@@ -1,13 +1,14 @@
-﻿using Microsoft.Xna.Framework;
+﻿using Heretic.Core.Npc;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using System;
 using System.Collections.Generic;
 using System.IO;
-using static Heretic.Core.NPC;
+using static Heretic.Core.Npc.NPC;
 using Vector2 = Microsoft.Xna.Framework.Vector2;
 
-namespace Heretic.Core
+namespace Heretic.Core.Graphics
 {
     internal class ObjectHandler
     {

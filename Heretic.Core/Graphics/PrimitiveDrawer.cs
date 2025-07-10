@@ -2,7 +2,7 @@
 using Microsoft.Xna.Framework.Graphics;
 using System;
 
-namespace Heretic
+namespace Heretic.Core.Graphics
 {
     internal static class PrimitiveDrawer
     {

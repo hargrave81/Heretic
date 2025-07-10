@@ -3,7 +3,7 @@ using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Media;
 using System.Collections.Generic;
 using System.IO;
-using static Heretic.Core.NPC;
+using static Heretic.Core.Npc.NPC;
 
 namespace Heretic.Core
 {

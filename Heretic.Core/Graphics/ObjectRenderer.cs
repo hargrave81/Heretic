@@ -3,12 +3,12 @@ using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using System;
 using System.Collections.Generic;
-using static Heretic.Core.RayCasting;
+using static Heretic.Core.Graphics.RayCasting;
 using Color = Microsoft.Xna.Framework.Color;
 using Point = Microsoft.Xna.Framework.Point;
 using Rectangle = Microsoft.Xna.Framework.Rectangle;
 
-namespace Heretic.Core
+namespace Heretic.Core.Graphics
 {
     internal class ObjectRenderer
     {
@@ -94,7 +94,7 @@ namespace Heretic.Core
 
             for (int i = 16; i < 26; i++)
             {
-                digitTextures.Add(i, GetTexture(String.Format(@"Textures\Digits\FONTB{0}", i)));
+                digitTextures.Add(i, GetTexture(string.Format(@"Textures\Digits\FONTB{0}", i)));
             }
 
             return digitTextures;

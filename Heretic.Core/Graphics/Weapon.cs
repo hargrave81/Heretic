@@ -3,7 +3,7 @@ using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using Color = Microsoft.Xna.Framework.Color;
 
-namespace Heretic.Core
+namespace Heretic.Core.Graphics
 {
     internal class Weapon : AnimatedSprite
     {

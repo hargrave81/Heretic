@@ -3,7 +3,7 @@ using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using System;
 
-namespace Heretic.Core
+namespace Heretic.Core.Graphics
 {
     internal class SpriteObject
     {
@@ -96,7 +96,7 @@ namespace Heretic.Core
             theta = MathF.Atan2(deltaPosition.Y, deltaPosition.X);
 
             float delta = theta - player.Angle;
-            if ((deltaPosition.X > 0 && player.Angle > MathF.PI) || (deltaPosition.X < 0 && deltaPosition.Y < 0))
+            if (deltaPosition.X > 0 && player.Angle > MathF.PI || deltaPosition.X < 0 && deltaPosition.Y < 0)
             {
                 delta += MathF.Tau;
             }
@@ -108,7 +108,7 @@ namespace Heretic.Core
             distance = Hypot(deltaPosition.X, deltaPosition.Y);
             normalizedDistance = distance * MathF.Cos(delta);
 
-            if (-imageHalfWidth < screenX && screenX < (Settings.WIDTH + imageHalfWidth) && normalizedDistance > 0.5f)
+            if (-imageHalfWidth < screenX && screenX < Settings.WIDTH + imageHalfWidth && normalizedDistance > 0.5f)
             {
                 GetSpriteProjection();
             }

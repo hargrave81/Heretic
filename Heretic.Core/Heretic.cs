@@ -1,4 +1,5 @@
 ﻿using Heretic.Core;
+using Heretic.Core.Graphics;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;

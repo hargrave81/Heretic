@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework;
+﻿using Heretic.Core.Graphics;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using System;
@@ -6,7 +7,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace Heretic.Core
+namespace Heretic.Core.Npc
 {
     internal class NPC : AnimatedSprite
     {
@@ -356,7 +357,7 @@ namespace Heretic.Core
             float playerDistance = MathF.Max(playerDistanceVertical, playerDistanceHorizontal);
             float wallDistance = MathF.Max(wallDistanceVertical, wallDistanceHorizontal);
 
-            return (0 < playerDistance && playerDistance < wallDistance);
+            return 0 < playerDistance && playerDistance < wallDistance;
         }
 
         public void Draw(GameTime gameTime, SpriteBatch spriteBatch)

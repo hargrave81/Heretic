@@ -2,7 +2,7 @@
 using Microsoft.Xna.Framework.Graphics;
 using System;
 
-namespace Heretic.Core
+namespace Heretic.Core.Graphics
 {
     internal class RayCasting
     {

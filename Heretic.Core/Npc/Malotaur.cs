@@ -1,7 +1,8 @@
-﻿using Microsoft.Xna.Framework;
+﻿using Heretic.Core.Graphics;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 
-namespace Heretic.Core
+namespace Heretic.Core.Npc
 {
     internal class Malotaur : NPC
     {

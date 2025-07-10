@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 
-namespace Heretic.Core
+namespace Heretic.Core.Graphics
 {
     internal class AnimatedSprite : SpriteObject
     {
