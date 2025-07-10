@@ -1,9 +1,7 @@
 # Heretic in MonoGame (Wolf3D style raycasting)
 
-![index](https://user-images.githubusercontent.com/104030813/202452369-94897c48-a311-4489-940e-50b6ed2b466b.png)
+![index](https://github.com/hargrave81/Heretic/blob/3609caa103bc75cde04e71aacf6d3bb5df081a90/mainsnap.png)
 
-## Gameplay video
-https://youtu.be/QuSMRnOU1W8
 
 ## Control
 - **Move, strafe**: W, A, S, D or Controller left stick
